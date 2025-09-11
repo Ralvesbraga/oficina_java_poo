@@ -1,4 +1,3 @@
-
 public class Produto {
     private Long id;
     private String nome;
@@ -14,7 +13,6 @@ public class Produto {
 
     public Produto(){
     }
-
 
     public double aplicarDesconto(double percentual) {
         double desconto = preco * (percentual/100);
@@ -61,7 +59,6 @@ public class Produto {
 
     public void setCategoriaProduto(ECategoriaProduto categoriaProduto) {
         this.categoriaProduto = categoriaProduto;
-    } 
+    }
 
-    
 }
